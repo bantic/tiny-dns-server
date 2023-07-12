@@ -43,3 +43,11 @@ PORT=8080 \
  RESPONSE_FILEPATH=./response.txt \
  node server.js
 ```
+
+### Building
+
+Build for amd and arm:
+
+```
+docker buildx build --platform=linux/amd64,linux/arm64 --tag coryfaddepar/tiny-dns-server:latest --push .
+```
