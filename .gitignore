@@ -1,1 +1,5 @@
 node_modules
+response.txt
+stats.txt
+package.json
+package-lock.json
